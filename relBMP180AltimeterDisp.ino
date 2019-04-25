@@ -98,7 +98,7 @@ void readAndPrintAltitudeDiff() {
   Serial.println(" feet");
 
    lcd.setCursor(0, 1);
-     lcd.print("rel. alt. ");
+     lcd.print("rel.alt:");
      lcd.print(a);
 
   delay(500);
